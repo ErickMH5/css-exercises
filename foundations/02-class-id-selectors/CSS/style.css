@@ -1,0 +1,20 @@
+/* CSS */
+
+.odd {
+    background-color: rgb(202, 138, 138);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+
+}
+.odd-y {
+    font-size: 24px;
+}
+
+#even {
+    color:blue;
+    font-size: 36px;
+}
+#even-y {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
