@@ -1,0 +1,16 @@
+/*CSS*/
+
+.second-class, .third-class {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.second-class {
+    background-color: black;
+    color: white;
+
+}
+
+.third-class {
+    background-color: yellow;
+}
