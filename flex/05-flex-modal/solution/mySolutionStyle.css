@@ -11,8 +11,8 @@ body {
   color: #333;
   /* I'll give you this one for free lol */
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .modal {
@@ -21,21 +21,37 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
-  padding: 16px;
-  gap: 16px;
-}
-.header{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 8px;
   
 }
-.text{
-  margin-bottom: 16px;
+
+.icon-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 13px;
+  
+  padding: 8px;
 }
+
+.text-container{
+  margin-left: 8px;
+}
+.button2{
+  display: flex;
+  align-items: center;
+  flex-shrink: 1;
+  margin: 16px 0 13px 0;
+  gap: 8px;
+}
+
+.close-button-container{
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  margin: 16px 0 0 13px;
+  padding: 8px;
+}
+
 
 .icon {
   color: royalblue;
@@ -47,8 +63,8 @@ body {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
+  justify-content:center;
+  
 }
 
 .close-button {
